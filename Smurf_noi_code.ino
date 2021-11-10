@@ -38,16 +38,16 @@ void halt()
 void forward()
 {
  digitalWrite(RightMotorDir, HIGH);
- digitalWrite(LeftMotorDir, LOW);
- digitalWrite(RightMotorSpeed, HIGH);
+ digitalWrite(LeftMotorDir, HIGH);
+ digitalWrite(RightMotorSpeed, LOW);
  digitalWrite(LeftMotorSpeed, LOW);
 }
 
 void reverse()
 {
  digitalWrite(RightMotorDir, LOW);
- digitalWrite(LeftMotorDir, HIGH);
- digitalWrite(RightMotorSpeed, LOW);
+ digitalWrite(LeftMotorDir, LOW);
+ digitalWrite(RightMotorSpeed, HIGH);
  digitalWrite(LeftMotorSpeed, HIGH);
 }
 
