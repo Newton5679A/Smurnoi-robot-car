@@ -1,5 +1,6 @@
 # Smurnoi-robot-car
 Control by Blynk application
+# อย่าลืมลง liberry ของ blynk
 # equipment of project
 1. 2WD Smart Car Robot Chassis Kits จำนวน 1 ชุด
 2. NodeMCU ESP8266 ESP-12E V2 WIFI  จำนวน 1 บอร์ด
